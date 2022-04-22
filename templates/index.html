@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>this main page</p>
+
+
+
+     <form action = "/checkFace" method = "post" enctype="multipart/form-data">
+
+         <input type="text" name="title" placeholder="your name"><br>
+         <input type="file" name="image" /><br>
+
+
+        <input type = "submit" value="Upload">
+    </form>
+
+
+
+   <form action = "/addFace" method = "post" enctype="multipart/form-data">
+
+         <input type="text" name="title" placeholder="your name"><br>
+         <input type="file" name="file0" /><br>
+         <input type="file" name="file1" />
+         <input type="file" name="file2" />
+         <input type="file" name="file3" />
+        <input type = "submit" value="Upload">
+    </form>
+
+
+
+
+ <form action = "/demo" method = "post" enctype="multipart/form-data">
+
+
+         <input type="file" name="image" /><br>
+
+
+        <input type = "submit" value="Upload">
+    </form>
+
+</body>
+</html>
