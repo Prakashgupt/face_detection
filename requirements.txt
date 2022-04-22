@@ -1,4 +1,4 @@
-dlib==19.22.99
+dlib==19.22.0
 firebase_admin==5.2.0
 Flask==2.1.1
 imutils==0.5.4
